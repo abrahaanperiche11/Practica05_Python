@@ -2,6 +2,7 @@
 import pandas as pd
 import requests
 import sqlite3
+
 #definimos funciones
 #funcion de limpieza
 def limpieza(df):

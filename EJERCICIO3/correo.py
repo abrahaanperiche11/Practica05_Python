@@ -1,6 +1,9 @@
 #configuracion del servidor y credenciales
 import os
-
+import smtplib
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from email.mime.application import MIMEApplication
 smtp_server= 'smtp.gmail.com' 
 smtp_port = 587
 sender_email = 'abrahaanperiche71@gmail.com' #mi correo
